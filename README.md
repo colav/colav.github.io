@@ -1,2 +1,4 @@
-# colav.github.io
-Colav Website
+Colav website http://colav.github.io
+
+Credits:
+    Based of Arcana Theme.

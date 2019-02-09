@@ -1,0 +1,65 @@
+<!DOCTYPE HTML>
+<!--
+	Arcana by HTML5 UP
+	html5up.net | @n33co
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Colav</title>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta name="description" content="" />
+		<meta name="keywords" content="" />
+		<link rel="shortcut icon" href="{{ site.baseurl }}/img/favicon.ico" type="image/x-icon">
+		<!--[if lte IE 8]><script src="{{ site.baseurl }}/assets/css/ie/html5shiv.js"></script><![endif]-->
+		<script src="{{ site.baseurl }}/assets/js/jquery.min.js"></script>
+		<script src="{{ site.baseurl }}/assets/js/jquery.dropotron.min.js"></script>
+		<script src="{{ site.baseurl }}/assets/js/skel.min.js"></script>
+		<script src="{{ site.baseurl }}/assets/js/skel-layers.min.js"></script>
+		<script src="{{ site.baseurl }}/assets/js/init.js"></script>
+		<noscript>
+			<link rel="stylesheet" href="{{ site.baseurl }}/assets/css/skel.css" />
+			<link rel="stylesheet" href="{{ site.baseurl }}/assets/css/style.css" />
+			<link rel="stylesheet" href="{{ site.baseurl }}/assets/css/style-wide.css" />
+		</noscript>
+        <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/jekyll-pagination.css" />
+        <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/jekyll-toc.css" />
+        <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/jekyll-lists.css" />
+<!--         <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/syntax.css" /> -->
+        <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/jekyll-github-syntax.css" />
+        <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/jekyll-menu-project.css" />
+        <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/jekyll-oproject.css" />
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
+
+
+		<!--[if lte IE 8]><link rel="stylesheet" href="{{ site.baseurl }}/assets/css/ie/v8.css" /><![endif]-->
+	</head>
+	<body>
+
+		<!-- Header -->
+			<div id="header" style="padding-top: 0px;" >
+				<!-- Logo -->
+                <a href="{{ site.baseurl }}/index.html" id="logo"> 
+                        <br>
+                        <img class="img-header" src="{{ site.baseurl }}/img/Logo.png" height="45%" width="45%">
+                        <br>
+                </a>
+				<!-- Nav -->
+					<nav id="nav">
+						<ul>
+							{% assign current = page.url | downcase | split: '/' %}
+							<li {% if current[1] == 'index.html' %} class="current"{% endif %}><a href="{{ site.baseurl }}/index.html">Home</a></li>
+
+							<li>
+								<a href="">Documentation</a>
+								<ul style="text-align: left;">
+									<li><a href="{{ site.baseurl }}/pages/Contributing.html">Contributing</a></li>
+									<li><a href="{{ site.baseurl }}/pages/DevelopmentGuide.html">Development Guide</a></li>
+                                </ul>
+                            </li>
+							<li>
+								<a href="{{ site.baseurl }}/pages/About.html">About</a>
+                            </li>
+						</ul>
+					</nav>
+			</div>
