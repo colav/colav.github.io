@@ -15,6 +15,8 @@ toc: true
 
 # Desciption
 Package to load papers in MongoDB and to serve the data from mongodb in a endpoint using flask
+PDBLoader(Papers DataBase Loader)
+PDBServer(Papers DataBase Server)
 
 <br>
 # Design

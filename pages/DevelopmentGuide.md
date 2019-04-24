@@ -12,6 +12,14 @@ toc: true
 {:toc}
 <br>
 
+# Colav Organization
+<br/><br/>
+<center>
+<img src="/img/ColavDiagram.png" width="80%"/>
+</center>
+<br/><br/>
+
+
 
 # Contributing
 If you want to contribute read carefully this guide and lets to create a fork [https://help.github.com/articles/fork-a-repo/](https://help.github.com/articles/fork-a-repo/)
@@ -56,7 +64,8 @@ def myfunction(arg1, arg2):
     >>> out = myfunction(arg1,arg2)
 '''
 
-
+<br/><br/><br/>
 # Build Monitoring Tools
-Comming soon (Codacy/Travis CI)
+* Travis CI
+* Codacy
 
