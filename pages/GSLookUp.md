@@ -24,6 +24,13 @@ GSLookUp (Google Scholar Lookup) is a package to find papers information in Goog
 
 <br>
 <br>
+<br>
+# Design
+<center>
+<img src="/img/GSClassDiagram.png" width="80%" height="60%"/>
+</center>
+
+<br>
 
 # Automation and Build Tools 
 * Travis CI TODO
