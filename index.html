@@ -9,49 +9,10 @@ blogfeed:  true
 		<div class="container">
 			<div class="row double">
 				<div class="3u">
-					<!-- {% include sidebar.html %} -->
 				</div>
 				<div class="9u skel-cell-important">
 					<div id="content">
 
-						<!-- Content -->
-					
-					    <!-- Sidebar -->
-                            <!-- {% for post in paginator.posts %}
-							<article>
-								<header>
-									<h2>{{ post.title }}</h2>
-								</header>
-								<div class="row">
-                                    <div class="8u">
-                                    <br>
-                                        <section class="box post">
-                                            <a href="#" class="image left"><img class="post-img-responsive" src="{{ site.baseurl }}{{ post.featured }}" alt="" /></a>
-                                            <div class="inner">{{ post.content }}</div>
-                                       </section>
-                                    </div>
-                                </div>
-                                <footer>
-									<h3><p>Posted {{ post.date | date_to_string }}</p></h3>
-                                </footer>
-                            </article >
-                            {% endfor %}
-                            
-                            {% if paginator.total_pages > 1 %}
-                            <div class="pagination">
-                                    {% if paginator.previous_page %}
-                                    <a href="/{% if paginator.previous_page != 1 %}page{{ paginator.previous_page }}{% endif %}">&laquo;</a>
-                                    {% endif %}
-                                    <a {% if paginator.page == 1 %} class="active" {% endif %}href="/">1</a>
-                                    {% for count in (2..paginator.total_pages) %}
-                                    <a {% if paginator.page == count %} class="active" {% endif %} href="/page{{ count }}">{{ count }}</a>
-                                    {% endfor %}
-                                    {% if paginator.next_page %}
-                                    <a href="/page{{ paginator.next_page }}">&raquo;</a>
-                                    {% endif %}
-                            </div>
-                            {% endif %}  -->
-                            
                             
 					</div>
 				</div>
